@@ -178,7 +178,7 @@ class XML(ReadWriteFileFormat):
             from onetl.file import FileDFReader
             from onetl.file.format import XML
 
-            from pyspark.sql.types import StructType, StructField, TImestampType, StringType
+            from pyspark.sql.types import StructType, StructField, TimestampType, StringType
 
             spark = ...
             schema = StructType(
